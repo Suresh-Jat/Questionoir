@@ -1,0 +1,94 @@
+Certainly! Here’s a more detailed version of the React component creation practice questions:
+
+---
+
+### **Beginner Level**
+
+1. **Create a Dropdown Menu with Filtering**:  
+   Build a dropdown menu that displays a list of country names. Add a text input at the top of the dropdown that allows the user to type and filter the displayed options dynamically. For example, typing "Uni" should only show "United States" and "United Kingdom."
+
+2. **Real-Time Character Counter**:  
+   Develop a component with a single input box. Below the input box, display the number of characters entered in real-time. For example, if the user types "Hello," display "Character Count: 5."
+
+3. **Highlight Search Matches in a List**:  
+   Create a component that takes a list of items (e.g., fruits) and a search box. As the user types in the search box, highlight the matching part of each item in the list. For instance, typing "ap" in the search box highlights "apple" and "grape."
+
+4. **Dynamic Word Counter**:  
+   Build a component with a textarea where users can write multiple lines of text. Display the number of words and characters entered dynamically as the user types.
+
+5. **Personalized Greeting Component**:  
+   Create a component with a text input where users can enter their name. Display a personalized greeting such as "Hello, [name]!" in real-time as they type.
+
+---
+
+### **Intermediate Level**
+
+6. **Category-Based List Filtering**:  
+   Create a search bar component that filters a list of products based on user input. Additionally, provide category checkboxes (e.g., Electronics, Books, Clothing) to filter results by category along with the search term.
+
+7. **Auto-Suggest Dropdown**:  
+   Build an auto-suggest component that takes a list of cities as input and provides suggestions as the user types. For example, typing "New" suggests "New York" and "New Delhi." Allow users to select a suggestion by clicking it.
+
+8. **Searchable Table with Column Filtering**:  
+   Develop a table component where users can search for data in any column (e.g., Name, Age, Email) using a search box. The table should dynamically update to show only rows that match the search query.
+
+9. **Product Search with Sorting**:  
+   Create a component that filters a list of products based on a search term and provides sorting options. For example, allow users to sort the results by price (ascending/descending) or rating.
+
+10. **Tag Selector with Search**:  
+    Build a component where users can search for tags from a predefined list and select multiple tags. Selected tags should appear below the search box with a close button to remove them.
+
+---
+
+### **Advanced Level**
+
+11. **Search with Pagination**:  
+    Build a search component that filters a large dataset (e.g., 1000 items) and displays the results with pagination (e.g., 10 items per page). Add buttons for navigating between pages.
+
+12. **Searchable Dashboard with Multiple Components**:  
+    Create a dashboard with multiple widgets such as a list, a graph, and a summary card. Add a search box that dynamically filters the data displayed in all widgets based on the search query.
+
+13. **Debounced Real-Time Search**:  
+    Develop a search bar that filters data in real-time but uses a debounce function to delay the search action until the user stops typing for 300ms. For example, searching for "react" should only trigger the search function once after the user has finished typing.
+
+14. **Advanced Product Filter**:  
+    Build a product filter component that supports multiple criteria:
+    - Search by name
+    - Filter by price range using a slider
+    - Filter by category using checkboxes
+    - Filter by rating using radio buttons
+    Ensure that the results dynamically update as the filters are applied.
+
+15. **Search with External API Integration**:  
+    Create a search bar that fetches data from an external API (e.g., GitHub users API or a movie database API). Display the search results in a list, including information such as the name, description, and image (if available).
+
+---
+
+### **Expert Level**
+
+16. **Multi-Component Search Interaction**:  
+    Build a search bar that filters data shared across multiple components:
+    - A list of items
+    - A summary card showing the total number of matching results
+    - A graph displaying the filtered data
+    Ensure all components update dynamically based on the search term.
+
+17. **Search with Voice Input**:  
+    Create a search component that allows users to provide input through voice. Use the Web Speech API to capture the voice, convert it to text, and filter the data accordingly.
+
+18. **Elastic Search-Like Filter**:  
+    Develop a search component that supports:
+    - Complex query operators (e.g., AND/OR)
+    - Fuzzy search (e.g., "appl" matches "apple")
+    - Token-based search (e.g., searching "red shoes" matches both "red sneakers" and "shoes in red")
+    Implement this using a simulated dataset.
+
+19. **Search with Infinite Scrolling**:  
+    Build a search component that filters and displays data in chunks as the user scrolls down. For example, initially load the first 20 results, and as the user scrolls, load the next 20.
+
+20. **Search with AI-Powered Suggestions**:  
+    Create a search bar that provides smart suggestions using simulated AI logic. For example, if the user types "headphones," suggest related items like "wireless headphones," "noise-canceling headphones," or "headphone cases."
+
+---
+
+These detailed questions provide clear objectives and include functionality enhancements to encourage hands-on learning and development. Let me know if you'd like help solving any of these!
